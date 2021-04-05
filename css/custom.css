@@ -1,31 +1,162 @@
-body, html {
-    font-family: 'Roboto', sans-serif ;
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: url(../imagens/footer-bg.png) no-repeat center bottom;
+  padding-bottom: 400px;
+}
+
+
+/*********** SLIDER ***** COD DO ROBOSN *******/
+#slider {
+  width: auto;
+  max-width: auto;
+  height: 25vw;
+  max-height: 135px;
+
+  position: relative;
+}
+
+#slider img{
+  opacity: 0;
+
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: opacity 900ms;
+}
+
+#slider img.selected { 
+  opacity: 1;
+
+  /************ FINAL DO SLIDER ******* COD DO ROBOSN ********/
+
 }
 
 #header {
-    width: 100%;
-    background-color: transparent;
-    transition: background ease-out 0.2;
+  width: 100%;
+  background-color: transparent;
+  transition: background ease-out 0.2s;
+}
+
+#header.active {
+  position: fixed;
+  background: rgb(114, 112, 112);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  z-index: 9999;
 }
 
 #header .navbar-collapse {
-    width: auto;
+  width: auto;
 }
 
 #header .nav-link {
-    text-transform: uppercase;
-    font-weight: 500;
-    padding-left: 0%;
-    padding-right: 0%;
-    color: #000;
-    border-bottom: solid 4px transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  color: #000;
+  border-bottom: solid 4px transparent;
 }
 
 #header .nav-link:hover {
-    border-bottom: solid 4px var(--secundary);
+  border-bottom: solid 4px var(--secondary);
+  color: var(--secondary);
 }
 
-#slider {
-    background: url(../imagens/slider-bg.svg) no-repeat center bottom;
-    background-size: contain;
+#conteudo h1 {
+  /*TAG = uppercase, é pra deixa h1 maiusculo*/
+  text-transform: uppercase;
+  /*TAG = font-weight, é pra deixa fonte mais grossa de todas */
+  font-weight: 900;
+}
+
+#conteudo h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#conteudo2 .badge{
+  font-weight: 400;
+}
+
+#conteudo2 .element-item img {
+  border-radius: 5px;
+  transition: all ease-out 0.2s;
+}
+
+#conteudo2 .element-item img:hover{
+  box-shadow: 0 0 50px 0 rgb(0, 0, 0);
+}
+
+#contato .email {
+  border-radius: 5px;
+  background-color: var(--secondary);
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 30px;
+}
+
+#contato .email img {
+  position: absolute;
+  left: 30px;
+  top: -30px;
+}
+
+#contato .email form {
+  width: 60%;
+  display: flex;
+}
+
+#contato .email .form-control,
+#contato .email .form-control::placeholder {
+  background: none;
+  color: #fff;
+}
+
+#contato ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contato ul li {
+  display: flex;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+#contato ul li:first-child {
+  margin-left: 0;
+}
+
+#contato ul li a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: all ease-out 0.2s;
+}
+
+#contato ul li a:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+#contato ul li img {
+  max-height: 20px;
 }

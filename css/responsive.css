@@ -1,0 +1,14 @@
+/* MINIMO MIDTH */
+@media (min-width: 992px){
+    #header .nav-link {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+/*MAX MEDIUM */
+@media (max-width: 991.98px) { 
+    #header .navbar-collapse{
+        width: 100%;
+    }   
+ }

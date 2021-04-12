@@ -23,6 +23,7 @@ a:hover {
 .subtitle {
   color: var(--medium);
   font-weight: 400;
+  color: #03045E;
 }
 
 .block {

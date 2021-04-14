@@ -31,13 +31,13 @@ body {
 
 #header {
   width: 100%;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   transition: ease-out 0.2s;
 }
 
 #header.active {
   position: fixed;
-  background: black;
+  background: rgba(0, 0, 0, 0.700);
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
   z-index: 9999;
 }

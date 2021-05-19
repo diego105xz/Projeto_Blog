@@ -1,11 +1,32 @@
-# bootstrap-5-homepage
-Marketing website homepage made with Boostrap 5 Alpha
+# Ninja Games
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/diego105xz/Projeto_Blog/blob/main/LICENSE) 
 
-Check it in action here: https://bootstrap5-marketing.netlify.app/
+# Sobre o projeto
 
-Vectors: https://www.freepik.com/
+http://www.ninjagames.tk
 
-JQuery Scripts:
-- Magnify Popup (https://dimsemenov.com/plugins/magnific-popup/)
-- Isotope (http://isotope.metafizzy.co/)
-- Owl Carousel 2 (https://owlcarousel2.github.io/OwlCarousel2/)
+Ninja games é um blog que aborda assunto do mundo dos games. 
+
+Esse é um Projeto Prático de sistemas orientado pelo Professor [Daniel Ferreira de Barros Junior](https://github.com/DanielGTI/T4-projeto).
+
+
+## Layout mobile
+![Mobile 1](https://github.com/diego105xz/RepositorioImg/blob/main/ninjamobile.png)
+
+## Layout web
+![Web 1](https://github.com/diego105xz/RepositorioImg/blob/main/ninjadesktop.png)
+
+# Tecnologias utilizadas
+## Sistema Hospedagem
+- AWS
+- Amazon S3
+
+## Front end
+- HTML
+- CSS
+- JS 
+- bootstrap5
+
+# Autor
+
+[Diego Jesus Melo](https://www.linkedin.com/in/diego-melo-1863971b2/)

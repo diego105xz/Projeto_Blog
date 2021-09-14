@@ -1,514 +1,439 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!---- 
-      Document   : index
-      Created on : 09/03/2021
 
-      Nome: Alexsander da S Lima              RA:2219110063
-      Nome: Carlos Eduardo N da Silva         RA:2219108435           
-      Nome: Diego Jesus Melo                  RA:2219109243
-      Nome: Isabella Alves de Queiroz Moura   RA:420201851
-      Nome: Phelipe Lima Barbosa              RA:2219103638
-      Nome: Robson da Silva Ribeiro           RA:2219206217
-  -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="shortcut icon" href="imagens/rostão.png" />
+  <link rel="stylesheet" href="css/main.css" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-  	<link rel="shortcut icon" href="imagens/rostão.png"/>
-    <link rel="stylesheet" href="css/main.css" />
+  <title>NinjaGames</title>
+</head>
 
-    <title>NinjaGames</title>
-  </head>
-  <body>
-    <!--BARRA DO LOGO - INICO DO COD--> 
-    <div id="header">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light justify-content-between"
-        >
-          <a class="navbar-brand" href="htpp://www.ninjagames.tk">
-            <img src="imagens/logo_ninja.png" class="img-fluid" width="110"/>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            style="background-color:white;">
-            
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="navbarNav" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#carouselSite"><img src="imagens/home.png">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#conteudo6"><img src="imagens/online-question.png">CONTEÚDO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contato"><img src="imagens/contact.png">CONTATO</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+        <a class="navbar-brand" href="htpp://www.ninjagames.tk">
+          <img src="imagens/logo_ninja.png" alt="logo" class="img-fluid" width="110" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+          style="background-color:white;">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselSite"><img src="imagens/home.png" alt="logo-home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conteudo6"><img src="imagens/online-question.png"
+                  alt="logo-duvida">CONTEÚDO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato"><img src="imagens/contact.png" alt="logo-contato">CONTATO</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-
-        
-
-    <!--//BARRA DE LOGO & SEVIÇOS - FIM DO COD-->
-
-    <!-------------- INICO DO SLIDER-----------ISABELA EDITAR FOTOS--------->
-     <div class="flex"> 
-      <div id="carouselSite" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+  </div>
+  <div class="flex">
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
         <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
         <li data-target="#carouselSite" data-slide-to="1"></li>
         <li data-target="#carouselSite" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="imagens/slide3.jpg" class="img-fluid d-block">
+          <img src="imagens/slide3.jpg" alt="slid-3" class="img-fluid d-block">
           <div class="carousel-caption d-none d-md-block">
             <h1>LANÇAMENTOS DO MÊS</h1>
-            
           </div>
         </div>
         <div class="carousel-item">
-          <img src="imagens/slide2.2.jpg" class="img-fluid d-block">
+          <img src="imagens/slide2.2.jpg" alt="slid-2" class="img-fluid d-block">
         </div>
         <div class="carousel-item">
-          <img src="imagens/slide1.1.jpg" class="img-fluid d-block">
+          <img src="imagens/slide1.1.jpg" alt="slid-1" class="img-fluid d-block">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
         <span class="sr-only">Anterior</span>
-      </a> 
-       <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
-         <span class="carousel-control-next-icon"></span>
-         <span class="sr-only">Avançar</span>
-       </a> 
+      </a>
+      <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Avançar</span>
+      </a>
     </div>
   </div>
-    <!------------------//--- FIM DO SLIDER----------------------->
-
-    <BR> <!------PULEI 1 LINHA-------->
-    <BR> <!------PULEI 2 LINHA-------->
-
-    <!--------Conteudo 1--------ISABELA EDITAR------>
-    <div id="conteudo1" class="block">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-6 align-self-center text-center order-md-1 order-2"
-          >
-            <img src="imagens/conteudo1.jpg" class="img-fluid" />
-          </div>
-          <div
-            class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4"
-          >
-            <h2 class="title">Jogos de corrida</h2>
-            <h4 class="subtitle">Quem gosta de jogos de corrida, pode ficar animado: 2021 e 2022 prometem a chegada de
-               vários novos títulos do gênero com gráficos realistas. 
-            </h4>
-            <p>
-              Clássicos como Forza MotorSport, Gran Turismo 7 e F1 2021 São alguns dos games previstos para este ano,
-               e que devem tirar proveito de todo o poder gráfico oferecido pela nova geração de consoles, Xbox Series 
-               X/S e Playstation 5 (PS5. Resoluções em 4K, com taxas de quadro a 60 Fps e cenários mais envolventes serão grande 
-               destaque nesses lançamentos.
-              </br></br>
-              Publicado em 25/02/2021 fonte: TechTudo
-            </p>
-            
-          </div>
-        </div>  
-      </div>
-    </div>
-    <!-------//FIM do conteudo 1---------------------->
-
-    <!----------Conteudo 2------------ISABELA EDITAR---------->
-    <div id="conteudo2" class="block">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-6 align-self-center text-center order-md-1 order-2"
-          >
-            <img src="imagens/conteudo2.jpg" class="img-fluid" />
-          </div>
-          <div
-            class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4"
-          >
-            <h2 class="title">Destroy All Humans</h2>
-            <h4 class="subtitle">
-              É anunciado para Nintendo Switch!
-            </h4>
-            <p>
-              O remake de Destroy All Humans! vai ganhar uma versão para Nintendo Switch, 
-              que tem lançamento marcado para 29 de junho.
-               A versão para o console da Nintendo terá todas as skins lançadas anteriormente, 
-               incluindo o conteúdo do Skin Pack.
-              </br></br>
-              Publicado em 5/03/2021 fonte: Jograma
-            </p>
-            
-          </div>
-        </div>  
-      </div>
-    </div>
-    <!-------------//fim do conteudo 2------------------>
-
-    <!------- Conteudo 3 -----------------ISABELA EDITAR--->
-    <div id="conteudo3" class="block">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-6 align-self-center text-center order-md-1 order-2"
-          >
-            <img src="imagens/conteudo3.jpg" class="img-fluid" />
-          </div>
-          <div
-            class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4"
-          >
-            <h2 class="title">The Smurfs: Mission Vileaf</h2>
-            <h4 class="subtitle">
-              Chega ao Switch no final de 2021!
-            </h4>
-            <p>
-              Em maio de 2020 havia sido anunciado um jogo dos Smurfs. 
-              Agora foi revelado que se trata de um plataforma de aventura 3D 
-              intitulado The Smurfs: Mission Vileaf. E tem mais a caminho.
-            </br></br>
-              Publicado em 10/03/2021 fonte: Nintendo blast
-            </p>           
-          </div>
-        </div>  
-      </div>
-    </div>
-    <!-------//------fim do conteudo 3 --------->
-        
-    <!---------------- conteudo 4 -----------------------PHELIPE EDITAR--->
-    
-    <div id="conteudo4" class="block">
-     	 <div class="container">
-       		<div class="row">
-           <div class="col-md-6 align-self-center text-center order-md-1 order-2">
-           <img src="imagens/conteudo4.jpg" class="img-fluid" />
-           </div>
-           <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
-           
-           <h2 class="title">Call Of Duty: Mobile</h2>
-           <h4 class="subtitle"> Um dos mais baixados na categoria Battle Royale</h4>
-           <p>Call of Duty Mobile conta com o modo de jogo Battle Royale, similar aos vistos em games como Fortnite e Free Fire.
-              A modalidade desafia os jogadores a serem os últimos sobreviventes em um mapa recheado de armas, 
-              equipamentos e veículos.
-            </br></br>
-			      Publicado em 13/04/2021 fonte: TechTudo
-           </p>
-           </div>
-         	</div>
-          </div>
+  <div id="conteudo1" class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo1.jpg" alt="conteudo-1" class="img-fluid" />
         </div>
-        
-     <!----------//------fim do conteudo 4-------------------->
-		
-	 <!--------------------- conteudo 5 ------------------- PHELIPE --->
-		
-	 <div id="conteudo5" class="block">
-		  <div class="container">
-		     <div class="row">
-			 <div class="col-md-6 align-self-center text-center order-md-1 order-2">
-			 <img src="imagens/conteudo5.jpg" class="img-fluid" /> 
-			 </div>
-			 <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
-				 
-			
-			 <h2 class="title">Battlefield 6</h2>
-			 <h4 class="subtitle">Um classico dos consoles e PCs está de volta, ainda mais imersivo</h4>
-			 <p>
-				 Battlefield 6 ainda é um mistério, porém o CEO da EA, Andrew Wilson,
-				 revelou a sua esperança na equipe com as palavras
-				 “tragam batalhas massivas e imersivas à vida com mais jogadores do que nunca“.
-				 Os fãs expectantes comentaram logo nas suas redes sociais a possibilidade de termos mapas de 128 jogadores em simultâneo.
-        </br></br>
-				 Publicado em 23/04/2021 fonte: Fnac
-			 </p>
-			 </div>
-		     </div>
-		 </div>
-		
-		
-	 </div>
-    
-	<!----------------------- Conteudo 6 ---------------------- PHELIPE ------->
-	 
-	<div id="conteudo6" class="block">
-		  <div class="container">
-		     <div class="row">
-			 <div class="col-md-6 align-self-center text-center order-md-1 order-2">
-				<img src="imagens/conteudo6.jpg" class="img-fluid" /> 
-			 </div>
-			 <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
-				<h2 class="title">Grand Theft Auto 6</h2>
-			<h4 class="subtitle">Ainda um misterio por parte da Rockstar Games</h4>
-			 <p>
-					GTA 6, mesmo sem ser anunciado oficialmente pela Rockstar Games,
-				 é um dos jogos mais aguardados dos últimos anos.
-				 Diversos rumores sobre a chegada do game circulam na Internet, e já cogitaram até mesmo um lançamento em 2021.
-        </br></br>
-				Publicado em 03/05/2021 fonte: TechTudo
-			 </p>
-			 </div>
-		     </div>
-		 </div>
-	  </div>
-    
-	
-	<!------------------------conteudo 7 -----------------PHELIPE-------->
-	
-	<div id="conteudo7" class="block">
-		  <div class="container">
-			 <div class="row">
-			  <div class="col-md-6 align-self-center text-center order-md-1 order-2">
-			  <img src="imagens/conteudo7.jpg" class="img-fluid" />
-				 </div>
-				  <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
-				     <h2 class="title">The Medium</h2>
-			   <h4 class="subtitle">Mais um game de horror entre os mais aguardados</h4>
-				<p>Uma medium terá de usar os seus poderes paranormais para investigar um mistério num antigo hotel abandonado. 
-					Mas este survival-horror tem uma particularidade: poderás explorar duas realidades diferentes em simultâneo. 
-					Isto, 
-					associado a uma série de habilidades como moveres-te de forma diferente em cada uma das realidades e a possibilidade do teu espírito sair temporariamente do corpo para explorar locais fisicamente inacessíveis,
-					promete desafios interessantes e uma jogabilidade inovadora.
-        </br></br>
-					Publicado em 10/05/2021 fonte: Fnac
-					  </p>
-				  
-				  </div>
-		    </div>
-	 	  </div>
-	</div>
+        <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+          <h2 class="title">Jogos de corrida</h2>
+          <h4 class="subtitle">Quem gosta de jogos de corrida, pode ficar animado: 2021 e 2022 prometem a chegada de
+            vários novos títulos do gênero com gráficos realistas.
+          </h4>
+          <p>
+            Clássicos como Forza MotorSport, Gran Turismo 7 e F1 2021 São alguns dos games previstos para este ano,
+            e que devem tirar proveito de todo o poder gráfico oferecido pela nova geração de consoles, Xbox Series
+            X/S e Playstation 5 (PS5. Resoluções em 4K, com taxas de quadro a 60 Fps e cenários mais envolventes serão
+            grande
+            destaque nesses lançamentos.
+            </br></br>
+            Publicado em 25/02/2021 fonte: TechTudo
+          </p>
 
-   	<!------------------------conteudo 8 -----------------Diego-------->
-	
-  <div id="conteudo7" class="block">
-		  <div class="container">
-			 <div class="row">
-			  <div class="col-md-6 align-self-center text-center order-md-1 order-2">
-			  <img src="imagens/conteudo8.jpg" class="img-fluid" />
-				 </div>
-				  <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
-				     <h2 class="title">League of Legends: Wild Rift</h2>
-			   <h4 class="subtitle">Um dos jogos mais aguardados de 2021, o beta do LoL Mobile chega no brasil.
-        </h4>
-				<p>Também conhecido como LoL Mobile, finalmente terá o seu lançamento no Brasil e Américas.
-           Após diversos adiamentos, a versão beta do game será liberada nas regiões para download grátis em 
-           celulares Android e iPhone (iOS) nesta segunda-feira (29). O TechTudo participou de um evento da 
-           Riot Games para poucos convidados e teve acesso aos detalhes do game. O jogo, que adapta o universo de
-            LoL para smartphones, 
-          chega com o patch 2.2, que lança novos eventos e campeões. A desenvolvedora 
-           deu detalhes sobre o passe de batalhas e o modo ARAM no jogo de smartphone. Confira tudo a seguir.
-        </br></br>
-					Publicado em 13/05/2021 fonte: TechTudo
-					  </p>
-				  
-				  </div>
-		    </div>
-	 		</div>
-	  </div>		
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="conteudo2" class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo2.jpg" alt="conteudo-2" class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+          <h2 class="title">Destroy All Humans</h2>
+          <h4 class="subtitle">
+            É anunciado para Nintendo Switch!
+          </h4>
+          <p>
+            O remake de Destroy All Humans! vai ganhar uma versão para Nintendo Switch,
+            que tem lançamento marcado para 29 de junho.
+            A versão para o console da Nintendo terá todas as skins lançadas anteriormente,
+            incluindo o conteúdo do Skin Pack.
+            </br></br>
+            Publicado em 5/03/2021 fonte: Jograma
+          </p>
 
-     	<!------------------------conteudo 9 -----------------Diego-------->
-	
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="conteudo3" class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo3.jpg" alt="conteudo-3" class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+          <h2 class="title">The Smurfs: Mission Vileaf</h2>
+          <h4 class="subtitle">
+            Chega ao Switch no final de 2021!
+          </h4>
+          <p>
+            Em maio de 2020 havia sido anunciado um jogo dos Smurfs.
+            Agora foi revelado que se trata de um plataforma de aventura 3D
+            intitulado The Smurfs: Mission Vileaf. E tem mais a caminho.
+            </br></br>
+            Publicado em 10/03/2021 fonte: Nintendo blast
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="conteudo4" class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo4.jpg" alt="conteudo-4" class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+          <h2 class="title">Call Of Duty: Mobile</h2>
+          <h4 class="subtitle"> Um dos mais baixados na categoria Battle Royale</h4>
+          <p>Call of Duty Mobile conta com o modo de jogo Battle Royale, similar aos vistos em games como Fortnite e
+            Free Fire.
+            A modalidade desafia os jogadores a serem os últimos sobreviventes em um mapa recheado de armas,
+            equipamentos e veículos.
+            </br></br>
+            Publicado em 13/04/2021 fonte: TechTudo
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="conteudo5" class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo5.jpg" alt="conteudo-5" class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+
+
+          <h2 class="title">Battlefield 6</h2>
+          <h4 class="subtitle">Um classico dos consoles e PCs está de volta, ainda mais imersivo</h4>
+          <p>
+            Battlefield 6 ainda é um mistério, porém o CEO da EA, Andrew Wilson,
+            revelou a sua esperança na equipe com as palavras
+            “tragam batalhas massivas e imersivas à vida com mais jogadores do que nunca“.
+            Os fãs expectantes comentaram logo nas suas redes sociais a possibilidade de termos mapas de 128 jogadores
+            em simultâneo.
+            </br></br>
+            Publicado em 23/04/2021 fonte: Fnac
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="conteudo6" class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo6.jpg" alt="conteudo-6" class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+          <h2 class="title">Grand Theft Auto 6</h2>
+          <h4 class="subtitle">Ainda um misterio por parte da Rockstar Games</h4>
+          <p>
+            GTA 6, mesmo sem ser anunciado oficialmente pela Rockstar Games,
+            é um dos jogos mais aguardados dos últimos anos.
+            Diversos rumores sobre a chegada do game circulam na Internet, e já cogitaram até mesmo um lançamento em
+            2021.
+            </br></br>
+            Publicado em 03/05/2021 fonte: TechTudo
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div id="conteudo7" class="block">
     <div class="container">
-     <div class="row">
-      <div class="col-md-6 align-self-center text-center order-md-1 order-2">
-      <img src="imagens/conteudo9.jpg" class="img-fluid" />
-       </div>
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo7.jpg" alt="conteudo-7" class="img-fluid" />
+        </div>
         <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
-           <h2 class="title">FIFA 21 de graça: Jogo está chegando no EA Play!</h2>
-       <h4 class="subtitle">O jogo de futebol da EA Sports poderá ser baixado gratuitamente pelos
-          assinantes do EA Play a partir deste mês. 
-      </h4>
-      <p>O FIFA 21 chegará ao EA Play e Xbox Game Pass neste mês. A EA Sports, desenvolvedora do jogo,
-         revelou que o título passará a ser um dos nomes gratuitos do serviço da Electronic Arts, portanto, 
-         assim como os outros jogos do EA Play, FIFA 21 também poderá ser conferido gratuitamente pelos assinantes
-          do Game Pass Ultimate.
-      </br></br>
-        Publicado em 13/05/2021 fonte: TechTudo
+          <h2 class="title">The Medium</h2>
+          <h4 class="subtitle">Mais um game de horror entre os mais aguardados</h4>
+          <p>Uma medium terá de usar os seus poderes paranormais para investigar um mistério num antigo hotel
+            abandonado.
+            Mas este survival-horror tem uma particularidade: poderás explorar duas realidades diferentes em simultâneo.
+            Isto,
+            associado a uma série de habilidades como moveres-te de forma diferente em cada uma das realidades e a
+            possibilidade do teu espírito sair temporariamente do corpo para explorar locais fisicamente inacessíveis,
+            promete desafios interessantes e uma jogabilidade inovadora.
+            </br></br>
+            Publicado em 10/05/2021 fonte: Fnac
           </p>
-        
+
         </div>
       </div>
-     </div>
-  </div>		
+    </div>
+  </div>
+  <div id="conteudo7" class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo8.jpg" alt="conteudo-8" class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+          <h2 class="title">League of Legends: Wild Rift</h2>
+          <h4 class="subtitle">Um dos jogos mais aguardados de 2021, o beta do LoL Mobile chega no brasil.
+          </h4>
+          <p>Também conhecido como LoL Mobile, finalmente terá o seu lançamento no Brasil e Américas.
+            Após diversos adiamentos, a versão beta do game será liberada nas regiões para download grátis em
+            celulares Android e iPhone (iOS) nesta segunda-feira (29). O TechTudo participou de um evento da
+            Riot Games para poucos convidados e teve acesso aos detalhes do game. O jogo, que adapta o universo de
+            LoL para smartphones,
+            chega com o patch 2.2, que lança novos eventos e campeões. A desenvolvedora
+            deu detalhes sobre o passe de batalhas e o modo ARAM no jogo de smartphone. Confira tudo a seguir.
+            </br></br>
+            Publicado em 13/05/2021 fonte: TechTudo
+          </p>
 
-	<!-----------------Conteudo 10 Inicio - ISABELLAA--------------->
-    <div id="conteudo8" class="block">
-      <div class="container">
-        <h2 class="title text-center">JOGOS MAIS ESPERADOS DE 2021</h2>
-        <h4 class="subtitle text-center mb-4">
-          Confira a lista dos jogos
-          que foram lançados: 
-        </h4>
-
-        <div class="row grid">
-          <div class="col-lg-4 col-6 mb-4 element-item" >
-            <a href="imagens/servicos/1.jpg" class="popup-link">
-              <img src="imagens/servicos/1.jpg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase mb-1">Horizon Forbidden West</h5>
-            
-          </div>
-          <div class="col-lg-4 col-6 mb-4 element-item">
-            <a href="imagens/servicos/2.jpeg" class="popup-link">
-              <img src="imagens/servicos/2.jpeg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase">Back 4 Blood</h5>
-            
-          </div>
-          <div class="col-lg-4 col-6 mb-4 element-item">
-            <a href="imagens/servicos/3.jpeg" class="popup-link">
-              <img src="imagens/servicos/3.jpeg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase">Psychonauts 2</h5>
-            
-          </div>
-          <div class="col-lg-4 col-6 mb-4 element-item">
-            <a href="imagens/servicos/4.jpeg" class="popup-link">
-              <img src="imagens/servicos/4.jpeg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase">Stray</h5>
-            
-          </div>
-          <div class="col-lg-4 col-6 mb-4 element-item">
-            <a href="imagens/servicos/5.jpeg" class="popup-link">
-              <img src="imagens/servicos/5.jpeg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase">Deathloop</h5>
-            
-          </div>
-          <div class="col-lg-4 col-6 mb-4 element-item">
-            <a href="imagens/servicos/6.jpeg" class="popup-link">
-              <img src="imagens/servicos/6.jpeg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase">Prince of Persia: The sands of time Remake</h5>
-            
-          </div>
-          <div class="col-lg-4 col-6 mb-4 element-item">
-            <a href="imagens/servicos/7.jpeg" class="popup-link">
-              <img src="imagens/servicos/7.jpeg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase">Far Cry 6</h5>
-            
-          </div>
-          <div class="col-lg-4 col-6 mb-4 element-item">
-            <a href="imagens/servicos/8.jpeg" class="popup-link">
-              <img src="imagens/servicos/8.jpeg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase">Halo Infinite</h5>
-            
-          </div>
-          <div class="col-lg-4 col-6 mb-4 element-item">
-            <a href="imagens/servicos/9.jpeg" class="popup-link">
-              <img src="imagens/servicos/9.jpeg" class="img-fluid mb-2" />
-            </a>
-            <h5 class="text-uppercase">Resident Evil 8: Village</h5>
-            
-          </div>
-        </div>  
+        </div>
       </div>
     </div>
-    <!--------// FINAL DO CONTEUDO 10 ------------------>
+  </div>
+  <div id="conteudo7" class="block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+          <img src="imagens/conteudo9.jpg" alt="conteudo-9" class="img-fluid" />
+        </div>
+        <div class="col-md-6 align-self-center order-md-2 order-1 mb-md-0 mb-4">
+          <h2 class="title">FIFA 21 de graça: Jogo está chegando no EA Play!</h2>
+          <h4 class="subtitle">O jogo de futebol da EA Sports poderá ser baixado gratuitamente pelos
+            assinantes do EA Play a partir deste mês.
+          </h4>
+          <p>O FIFA 21 chegará ao EA Play e Xbox Game Pass neste mês. A EA Sports, desenvolvedora do jogo,
+            revelou que o título passará a ser um dos nomes gratuitos do serviço da Electronic Arts, portanto,
+            assim como os outros jogos do EA Play, FIFA 21 também poderá ser conferido gratuitamente pelos assinantes
+            do Game Pass Ultimate.
+            </br></br>
+            Publicado em 13/05/2021 fonte: TechTudo
+          </p>
 
-    <!------- INICIO DO FOOTER OU RODAPÉ----------------->
-    <footer id="contato">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h3 class="text-uppercase text-dark">Informações Adicionais</h3>
-    
-            <p>
-              Blog desenvolvido para atualizar você que gosta de jogos da atualidade.
-              Fique ligado pois sera anúnciado a cada atualização de um jogo novo, o blog ninjagames
-              estará de prontidão para informa os nossos ninja games.
-            </p>
-          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="conteudo8" class="block">
+    <div class="container">
+      <h2 class="title text-center">JOGOS MAIS ESPERADOS DE 2021</h2>
+      <h4 class="subtitle text-center mb-4">
+        Confira a lista dos jogos
+        que foram lançados:
+      </h4>
 
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h3 class ="text-uppercase text-dark">Criadores</h3>
+      <div class="row grid">
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/1.jpg" class="popup-link">
+            <img src="imagens/servicos/1.jpg" alt="img1" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase mb-1">Horizon Forbidden West</h5>
 
-            <a href="https://github.com/Al3x1406">Alexsander da S Lima</a></br>
-            <a href="https://github.com/Carlos-Eduardo-Neres">Carlos Eduardo Neres </a></br>
-            <a href="https://github.com/diego105xz">Diego Melo</a></br>
-            <a href="https://github.com/IsabellaMoura">Isabella Alves de Q Moura</a></br>
-            <a href="https://github.com/iDubstepGun">Phelipe Lima Barbosa</a></br>
-            <a href="https://github.com/devrobsonribeiro">Robson da Silva Ribeiro</a></br>
-                        
-          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/2.jpeg" class="popup-link">
+            <img src="imagens/servicos/2.jpeg" alt="img2" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase">Back 4 Blood</h5>
 
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h3 class ="text-uppercase text-dark">Local</h3>
-            <P>Endereço: Rua R. Amador Bueno, 389/491 - Santo Amaro, 
-              São Paulo - SP, 04752-900</P>
-          </div>
+        </div>
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/3.jpeg" class="popup-link">
+            <img src="imagens/servicos/3.jpeg" alt="img3" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase">Psychonauts 2</h5>
+
+        </div>
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/4.jpeg" class="popup-link">
+            <img src="imagens/servicos/4.jpeg" alt="img4" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase">Stray</h5>
+
+        </div>
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/5.jpeg" class="popup-link">
+            <img src="imagens/servicos/5.jpeg" alt="img5" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase">Deathloop</h5>
+
+        </div>
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/6.jpeg" class="popup-link">
+            <img src="imagens/servicos/6.jpeg" alt="img6" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase">Prince of Persia: The sands of time Remake</h5>
+
+        </div>
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/7.jpeg" class="popup-link">
+            <img src="imagens/servicos/7.jpeg" alt="img7" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase">Far Cry 6</h5>
+
+        </div>
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/8.jpeg" class="popup-link">
+            <img src="imagens/servicos/8.jpeg" alt="img8" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase">Halo Infinite</h5>
+
+        </div>
+        <div class="col-lg-4 col-6 mb-4 element-item">
+          <a href="imagens/servicos/9.jpeg" class="popup-link">
+            <img src="imagens/servicos/9.jpeg" alt="img9" class="img-fluid mb-2" />
+          </a>
+          <h5 class="text-uppercase">Resident Evil 8: Village</h5>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="contato">
+    <div class="container">
+      <div id="roda"class="row">
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h3 class="text-uppercase text-dark">Informações Adicionais</h3>
+          <p>
+            Blog desenvolvido para atualizar você que gosta de jogos da atualidade.
+            Fique ligado pois sera anúnciado a cada atualização de um jogo novo, o blog ninjagames
+            estará de prontidão para informa os nossos ninja games.
+          </p>
+        </div>
+
+        <div  class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h3 class="text-uppercase text-dark">Criadores</h3>
+          
+            
+            <a href="https://github.com/Al3x1406">Alexsander da S Lima</a><br>
+            <a href="https://github.com/Carlos-Eduardo-Neres">Carlos Eduardo Neres </a><br>
+            <a href="https://github.com/diego105xz">Diego Melo</a><br>
+            <a href="https://github.com/IsabellaMoura">Isabella Alves de Q Moura</a><br>
+            <a href="https://github.com/iDubstepGun">Phelipe Lima Barbosa</a><br>
+            <a href="https://github.com/devrobsonribeiro">Robson da Silva Ribeiro</a><br>
+            
+          
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h3 class="text-uppercase text-dark">Local</h3>
+          <P>Endereço: Rua R. Amador Bueno, 389/491 - Santo Amaro,
+            São Paulo - SP, 04752-900</P>
+        </div>
 
 
         <div class="logo py-4">
           <div class="row">
             <div class="col-md-6 align-self-center text-md-left text-center">
-              <img src="logo_ninja1.jpg" width="100"/>
+              <img src="logo_ninja1.jpg" alt="logo-ninja" width="100" />
             </div>
-              <div class="col-md-6 align-self-center text-right">
-                <ul>
-                  <li>
-                    <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="imagens/facebook.svg" /></a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/login?lang=pt"><img src="imagens/twitter.svg" /></a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/accounts/login/?hl=pt-br"><img src="imagens/instagram.svg" /></a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/login/pt"><img src="imagens/linkedin.svg" /></a>
-                  </li>
-                  <li>
-                    <a href="https://www.youtube.com/"><img src="imagens/youtube.svg" /></a>
-                  </li>
-                </ul>
-              </div>
+            <div class="col-md-6 align-self-center text-right">
+              <ul>
+                <li>
+                  <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="imagens/facebook.svg" alt="logo-face" /></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/login?lang=pt"><img src="imagens/twitter.svg" alt="logo-twitter" /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/accounts/login/?hl=pt-br"><img src="imagens/instagram.svg"
+                      alt="logo-instagram" /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/login/pt"><img src="imagens/linkedin.svg" alt="logo-linkedin" /></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/"><img src="imagens/youtube.svg" alt="logo-youtube" /></a>
+                </li>
+              </ul>
+            </div>
             <div class="col-md-12 align-self-center text-center">
-                  © 2021 NinjaGames:
+              © 2021 NinjaGames:
               <a class="text-dark" href="http://www.ninjagames.tk/">ninjagames.tk</a>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!--//------------FIM DO FOOTER OU RODAPÉ--------------------->
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/magnify/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
-    <!-------------JS LINKS PARA HABILITAR BIBLIOTECA MAGINIFY, JS, jQUERY E BOOSTRAP ------------------->
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/magnify/jquery.magnific-popup.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script> <!----------COD DO ROBSON ---------->
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
